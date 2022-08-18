@@ -26,8 +26,8 @@ function createGalleryItem(galleryItems) {
   </a>
 </div>
 `;
-  });
-  join("");
+  })
+  .join("");
 }
 
 galleryContainer.addEventListener("click", (event) => {
